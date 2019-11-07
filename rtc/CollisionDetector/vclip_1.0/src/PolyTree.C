@@ -58,7 +58,7 @@ using namespace Vclip;
 
 #if QHULL
 extern "C" {
-#include "qhull/qhull_a.h"
+#include "libqhull/qhull_a.h"
 }
 //char qh_version[] = "vclip 1.0";
 #endif

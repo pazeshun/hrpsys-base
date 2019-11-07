@@ -1,7 +1,9 @@
 FIND_PATH(
 QHULL_DIR
-NAMES include/qhull/qhull.h
-PATHS /usr /usr/local
+# NAMES include/qhull/qhull.h
+# PATHS /usr /usr/local
+NAMES include/libqhull/libqhull.h
+PATHS /usr /usr/local /opt/jsk
 DOC "the top directory of qhull")
 
 IF ( QHULL_DIR )

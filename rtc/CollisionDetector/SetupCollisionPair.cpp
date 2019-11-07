@@ -16,7 +16,7 @@
 #include <hrpCollision/ColdetModel.h>
 #include "CollisionDetector.h"
 extern "C" {
-#include <qhull/qhull_a.h>
+#include <libqhull/qhull_a.h>
 }
 
 #define deg2rad(x)	((x)*M_PI/180)

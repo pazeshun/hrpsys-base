@@ -1,6 +1,6 @@
 #include <iostream>
 extern "C" {
-#include <qhull/qhull_a.h>
+#include <libqhull/qhull_a.h>
 }
 #include <hrpModel/Link.h>
 #include "BVutil.h"
