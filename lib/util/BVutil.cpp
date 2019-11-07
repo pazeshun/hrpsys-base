@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 extern "C" {
 #include <libqhull/qhull_a.h>
 }
